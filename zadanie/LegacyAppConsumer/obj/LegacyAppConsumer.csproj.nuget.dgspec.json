@@ -1,91 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s27977\\Desktop\\apbd20-cw4\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj": {}
+    "/Users/jakuborzelowski/Desktop/APBD/apbd20-cw4/zadanie/LegacyAppConsumer/LegacyAppConsumer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s27977\\Desktop\\apbd20-cw4\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj": {
+    "/Users/jakuborzelowski/Desktop/APBD/apbd20-cw4/zadanie/LegacyApp/LegacyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s27977\\Desktop\\apbd20-cw4\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj",
-        "projectName": "LegacyAppConsumer",
-        "projectPath": "C:\\Users\\s27977\\Desktop\\apbd20-cw4\\zadanie\\LegacyAppConsumer\\LegacyAppConsumer.csproj",
-        "packagesPath": "C:\\Users\\s27977\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s27977\\Desktop\\apbd20-cw4\\zadanie\\LegacyAppConsumer\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\s27977\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\s27977\\Desktop\\apbd20-cw4\\zadanie\\LegacyApp\\LegacyApp.csproj": {
-                "projectPath": "C:\\Users\\s27977\\Desktop\\apbd20-cw4\\zadanie\\LegacyApp\\LegacyApp.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\s27977\\Desktop\\apbd20-cw4\\zadanie\\LegacyApp\\LegacyApp.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\s27977\\Desktop\\apbd20-cw4\\zadanie\\LegacyApp\\LegacyApp.csproj",
+        "projectUniqueName": "/Users/jakuborzelowski/Desktop/APBD/apbd20-cw4/zadanie/LegacyApp/LegacyApp.csproj",
         "projectName": "LegacyApp",
-        "projectPath": "C:\\Users\\s27977\\Desktop\\apbd20-cw4\\zadanie\\LegacyApp\\LegacyApp.csproj",
-        "packagesPath": "C:\\Users\\s27977\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s27977\\Desktop\\apbd20-cw4\\zadanie\\LegacyApp\\obj\\",
+        "projectPath": "/Users/jakuborzelowski/Desktop/APBD/apbd20-cw4/zadanie/LegacyApp/LegacyApp.csproj",
+        "packagesPath": "/Users/jakuborzelowski/.nuget/packages/",
+        "outputPath": "/Users/jakuborzelowski/Desktop/APBD/apbd20-cw4/zadanie/LegacyApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\s27977\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jakuborzelowski/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -98,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -124,7 +53,64 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jakuborzelowski/Desktop/APBD/apbd20-cw4/zadanie/LegacyAppConsumer/LegacyAppConsumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jakuborzelowski/Desktop/APBD/apbd20-cw4/zadanie/LegacyAppConsumer/LegacyAppConsumer.csproj",
+        "projectName": "LegacyAppConsumer",
+        "projectPath": "/Users/jakuborzelowski/Desktop/APBD/apbd20-cw4/zadanie/LegacyAppConsumer/LegacyAppConsumer.csproj",
+        "packagesPath": "/Users/jakuborzelowski/.nuget/packages/",
+        "outputPath": "/Users/jakuborzelowski/Desktop/APBD/apbd20-cw4/zadanie/LegacyAppConsumer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jakuborzelowski/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/jakuborzelowski/Desktop/APBD/apbd20-cw4/zadanie/LegacyApp/LegacyApp.csproj": {
+                "projectPath": "/Users/jakuborzelowski/Desktop/APBD/apbd20-cw4/zadanie/LegacyApp/LegacyApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
