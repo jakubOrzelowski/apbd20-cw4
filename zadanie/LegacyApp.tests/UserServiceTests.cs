@@ -166,68 +166,39 @@ public class UserServiceTests
         Assert.True(result);
     }
  
-    // [Fact]
-    // public void AddUser_ReturnsFalseWhenNormalClientWithNoCreditLimit()
-    // {
-    //     //Arrange
-    //     var UserService = new UserService();
-    //     
-    //     //Act
-    //     var user = UserService.AddUser(
-    //         "Jan",
-    //         "Kowalski",
-    //         "kowalski@mail.com",
-    //         DateTime.Parse("2024-01-01"),
-    //         1
-    //     );
-    //     var clientRepository = new ClientRepository();
-    //     var client = clientRepository.GetById(1);
-    //     bool result;
-    //
-    //     var x = user.HasCreditLimit;
-    //     if (client.Type.Equals("NormalClient") && user.HasCreditLimit)
-    //     {
-    //         result = false;
-    //     }
-    //     else
-    //     {
-    //         result = true;
-    //     }
-    //     
-    //     //Assert
-    //     Assert.False(result);
-    // }
+    [Fact]
+    public void AddUser_ReturnsFalseWhenNormalClientWithNoCreditLimit()
+    {
+        //Arrange
+        var UserService = new UserService();
     
+        //Act
+        var user = UserService.AddUser(
+            "Jan",
+            "Kowalski",
+            "kowalski@mail.com",
+            DateTime.Parse("2024-01-01"),
+            1
+        );
+        var clientRepository = new ClientRepository();
+        var client = clientRepository.GetById(1);
+        int creditLimit;
+
+        using (var userCreditService = new UserCreditService())
+        {
+            creditLimit = userCreditService.GetCreditLimit("Kowalski", DateTime.Parse("2024-01-01"));
+            
+        }
+
+        var result = false;
+        if (creditLimit == 0)
+        {
+            result = true;
+        }
+        
     
-    // [Fact]
-    // public void AddUser_ThrowsExceptionWhenUserNoCreditLimitExistsForUser()
-    // {
-    //     //Arrange
-    //     var UserService = new UserService();
-    //     
-    //     //Act
-    //     var user = UserService.AddUser(
-    //         "Jan",
-    //         "Kowalski",
-    //         "kowalski@mail.com",
-    //         DateTime.Parse("2024-01-01"),
-    //         1
-    //     );
-    //     var clientRepository = new ClientRepository();
-    //     var client = clientRepository.GetById(1);
-    //     bool result;
-    //
-    //     var x = user.HasCreditLimit;
-    //     if (client.Type.Equals("NormalClient") && user.HasCreditLimit)
-    //     {
-    //         result = false;
-    //     }
-    //     else
-    //     {
-    //         result = true;
-    //     }
-    //     
-    //     //Assert
-    //     Assert.False(result);
-    // }
+        //Assert
+        Assert.False(client.Type.Equals("NormalClient") && result);
+
+    }
 }
